@@ -1,0 +1,26 @@
+[
+    {
+        "request":{
+            "uri":"/sms/",
+            "method":"PUT",
+            "text":{
+                "json":"{\"id\":8975, \"from\":\"02122358787\", \"to\":\"0312225787\", \"body\":\"HI\"}"
+            }
+        },
+        "response":{
+            "status":"201"
+        }
+    },
+	{
+        "request":{
+            "uri":"/sms/",
+            "method":"PUT",
+            "text":{
+                "json":"{\"id\":456, \"from\":\"021\", \"to\":\"032\", \"body\":\"Bye\"}"
+            }
+        },
+        "response":{
+            "status":"500"
+        }
+    }
+]

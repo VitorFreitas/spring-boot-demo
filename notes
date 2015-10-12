@@ -1,0 +1,16 @@
+Notas:
+
+	Documentação da API: http://docs.smsproxy.apiary.io/#
+	Mocks locais:	mocks.json
+
+	Dependencias:
+		gradle 2.4
+		Linux 
+
+	App:
+		porta: 8989
+		contexto: /sms-proxy/
+		startup: 
+				$ gradle run
+		testes:
+				$ gradle test
